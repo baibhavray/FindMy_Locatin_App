@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#E6E6E6"
+    >
+
+    <TextView
+        android:id="@+id/tvLatitude"
+        android:text = "Latitude : "
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tvLongitude"
+        android:text = "Longitude : "
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/tvAddress"
+        android:text = "Address : "
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btnMyLocation"
+        android:text="My Location"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
